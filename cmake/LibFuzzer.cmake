@@ -1,4 +1,4 @@
-function(myproject_check_libfuzzer_support var_name)
+function(CMake_Ultimate_Template_check_libfuzzer_support var_name)
   set(LibFuzzerTestSource
       "
 #include <cstdint>
